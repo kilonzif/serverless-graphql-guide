@@ -11,7 +11,8 @@ const typeDefs = gql`
 
 const resolvers = {
   Query: {
-    hello: () => "Hi! Love from @stemmlerjs 🤠."
+    hello: () => "Hello World, From Serverless GraphQL!"
+
   }
 };
 
